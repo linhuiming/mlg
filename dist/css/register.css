@@ -1,0 +1,151 @@
+h1,h2,h3,h4,h5,h6,a,p,img,input,ul,dl,ol,li,dt,dd,figure,body{padding:0; margin:0;}
+body{font-size:12px; font-family:"微软雅黑";}
+ul,ol{list-style:none;}
+input{outline:none;}
+a{text-decoration:none;}
+img{ border:0;}
+a:hover{ color: #128cff;}
+.w{width:400px; margin:0 auto;}
+.l{float:left;}
+.r{float:right;}
+/*----------------------------regTop------------------------*/
+.regTop{
+    border-bottom: none;
+}
+.settleTop{
+    width: 100%;
+    height:110px;
+}
+.settleTopMain{
+    width: 1000px;
+    margin: 0 auto;
+}
+.settleTopMain .m6goLogo{
+    padding-top: 20px;
+}
+.settleTopMain .m6goLogo img{
+    float: left;
+}
+.settleTopMain .stepCar{
+    float: right;
+    margin-top: 25px;
+}
+/*------------------regMain-------------------*/
+.regMain{
+    min-height: 600px;
+    width: 960px;
+    margin: 0 auto;
+}
+.regLeft{
+    float: left;
+    width: 508px;
+    padding-top: 30px;
+}
+.regRight{
+    border: 1px solid #ccc;
+    border-top: 2px solid#ea3918;
+    width: 290px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding: 20px 40px;
+}
+.regRight h3{
+    float: left;
+    font-size: 22px;
+    color: #444;
+    font-weight: normal;
+    position: relative;
+}
+.regRight span.rR{
+    float: right;
+    display: block;
+    line-height: 24px;
+    width: 160px;
+    text-align: right;
+}
+.regMain a{
+    color: #999;
+    text-decoration: none;
+    cursor:pointer;
+}
+.regMain a:hover{
+    color: #128cff;
+}
+.regRight ul{
+    margin-top: 20px;
+}
+.regRight li input.public{
+    width: 278px;
+    padding: 0px 5px;
+}
+.regRight li input{
+    border: 1px solid #dedede;
+    color: #999;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.regRight li p.focusTex{
+    line-height: 24px;
+    height: 24px;
+}
+.regRight li input.check{
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.regRight li input.btn{
+    background-color: #e83917;
+    width: 290px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+.voiceVer{
+    text-align: center;
+    padding: 20px 0 12px 0;
+}
+.voiveVer .blue{
+    color: #128cff;
+}
+
+/*-----------------------------footer------------------------*/
+footer .about{
+    background: #fff;
+    padding-bottom: 15px;
+}
+footer .about p{
+    text-align: center;
+    line-height: 24px;
+}
+p.abLink{
+    background: #444851;
+    overflow: hidden;
+}
+p.abLink a{
+    height: 35px;
+    line-height: 35px;
+    color: #adadad;
+    padding: 0 17px;
+}
+p.abLink a:hover{
+    color: #f5f5f5;
+    transition: .5s linear;
+}
+p.abLink span{
+    color: #555;
+}
+
+
+
+
+
+
+
