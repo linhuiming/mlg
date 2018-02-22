@@ -139,11 +139,25 @@ section .siteTop div.rg div.mygou ul.noneCon{
     display: none;
     width: 87px;
 }
+section .siteTop div.rg div.mygou div.noneCon{
+    position: absolute;
+    left: -148px;
+    top: 34px;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index:2;
+    border-top: none;
+    padding:4px 0;
+    display: none;
+    width: 240px;
+    height: auto;
+}
 section .siteTop div.rg div.mygou ul.noneCon li{
     width: 84px;
     height: 24px;
     line-height: 24px;
 }
+
 section .siteTop div.rg a{
     color: #999;
 }

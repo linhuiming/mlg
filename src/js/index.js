@@ -2,21 +2,31 @@
  * Created by lenovo on 2018/2/6.
  */
 //我的麦乐购（鼠标移入移出）
-$mg = $('.mygou').eq(0);
+$mg = $('.mygou');
 $nc = $('.noneCon');
 $mgi = $('.mygou').find('i').eq(0);
-$mg.on('mouseover',function(){
-    $nc.css('display', 'block')
-    $mg.css('background','#fff')
-    $mg.css('border','1px solid #ccc')
-    $mg.css('border-bottom','none')
+$mg.eq(0).on('mouseover',function(){
+    $nc.eq(0).css('display', 'block')
+    $mg.eq(0).css('background','#fff')
+    $mg.eq(0).css('border','1px solid #ccc')
+    $mg.eq(0).css('border-bottom','none')
     $mgi.css('background','url("../img/icon_index.png") no-repeat scroll -69px 0px')
 })
-$mg.on('mouseout',function(){
-    $nc.css('display','none')
-    $mg.css('border','none')
-    $mg.css('background','#f5f5f5')
+$mg.eq(0).on('mouseout',function(){
+    $nc.eq(0).css('display','none')
+    $mg.eq(0).css('border','none')
+    $mg.eq(0).css('background','#f5f5f5')
     $mgi.css('background','url("../img/icon_index.png") no-repeat scroll -89px 0px')
+})
+$mg.eq(1).on('mouseover',function(){
+    $nc.eq(1).css('display','block')
+    $mg.eq(1).css('background','#fff')
+    $mg.eq(1).css('border','1px solid #ccc')
+    $mg.eq(1).css('border-bottom','none')
+})
+$mg.eq(1).on('mouseout',function(){
+    $nc.eq(1).css('display','none')
+    $mg.eq(1).css('background','#f5f5f5')
 })
 
 //nav下划线移动
