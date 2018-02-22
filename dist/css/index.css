@@ -137,10 +137,10 @@ section .siteTop div.rg div.mygou ul.noneCon{
     border-top: none;
     padding: 0 0 5px 10px;
     display: none;
-    width: 83px;
+    width: 87px;
 }
 section .siteTop div.rg div.mygou ul.noneCon li{
-    width: 83px;
+    width: 84px;
     height: 24px;
     line-height: 24px;
 }
@@ -426,6 +426,56 @@ nav .nav-list li .bg8{
 nav .nav-list li .bg9{
     background-position: right -394px;
 }
+
+.menu-con .sub-pannel{
+    display: none;
+    background:#fff;
+    box-shadow: 1px 0 2px #978d8d inset;
+    height: 480px;
+    left: 170px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    opacity: .5;
+    filter:alpha(opacity=50);
+    width: 400px;
+    z-index: 55;
+}
+.menu-con .sub-pannel .nelBox{
+    padding:12px 8px 12px 15px;
+    line-height: 20px;
+}
+.menu-con .sub-pannel .nelBox p {
+    border-bottom:1px dashed #ccc;
+    padding-bottom:8px;
+    margin-bottom:12px;
+}
+.menu-con .sub-pannel .nelBox p.last{
+    border-bottom:none;
+}
+.menu-con .sub-pannel .nelBox p strong{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+}
+.menu-con .sub-pannel .nelBox p strong a{
+    margin: 0;
+    line-height:auto;
+}
+.menu-con .sub-pannel .nelBox p a{
+    margin-right: 17px;
+    line-height:20px;
+    display: inline-block;
+}
+.menu-con .sub-pannel .nelBox p a.on1{
+    color: #cb3e25;
+}
+.menu-con .sub-pannel .nelBox p a.on2{
+    background: #cb3e25;
+    color:#fff;
+    padding:0 5px;
+}
     /*----------------------------marketPic-----------------------------*/
 .gou-category-menu{
     position: relative;
@@ -520,7 +570,7 @@ nav .nav-list li .bg9{
     position: relative;
     opacity: 0.9;
     float: left;
-    height: 36px;
+    height: 50px;
     line-height: 36px;
     margin-right: 1px;
     text-align: center;
