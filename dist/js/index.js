@@ -105,131 +105,48 @@ $navMainListLi.eq(7).on('mouseout',function(){
 })
 //二级菜单
 $subpannel = $('.sub-pannel');
-$navlist = $('.menubox').find('ul')
-$navlistLi = $navlist.find('li');
-$navlistLi.eq(0).on('mouseover',function(){
-    $subpannel.eq(0).css('display','block')
-    $subpannel.eq(0).css('opacity','.95')
-    $subpannel.eq(0).css('left','180px')
-    $navlistLi.eq(0).css('background','#a90000')
-    $navlistLi.eq(0).css('padding-left','10px')
+$navlistLi = $('.menubox').find('ul li')
+
+$navlistLi.on('mouseover',function(){
+    $(this).attr('class','cx').siblings().attr('class','');
+    $subpannel.eq( $(this).index() ).attr('id','appear').siblings().attr('id','');
 })
-$navlistLi.eq(0).on('mouseout',function(){
-    $subpannel.eq(0).css('display','none')
-    $subpannel.eq(0).css('opacity','.5')
-    $subpannel.eq(0).css('left','170px')
-    $navlistLi.eq(0).css('background','#cb3e25')
-    $navlistLi.eq(0).css('padding-left','0px')
+$navlistLi.on('mouseout',function(){
+    $(this).attr('class','')
+    $subpannel.eq( $(this).index() ).attr('id','');
 })
-$navlistLi.eq(1).on('mouseover',function(){
-    $subpannel.eq(1).css('display','block')
-    $subpannel.eq(1).css('opacity','.95')
-    $subpannel.eq(1).css('left','180px')
-    $navlistLi.eq(1).css('background','#a90000')
-    $navlistLi.eq(1).css('padding-left','10px')
-})
-$navlistLi.eq(1).on('mouseout',function(){
-    $subpannel.eq(1).css('display','none')
-    $subpannel.eq(1).css('opacity','.5')
-    $subpannel.eq(1).css('left','170px')
-    $navlistLi.eq(1).css('background','#cb3e25')
-    $navlistLi.eq(1).css('padding-left','0px')
-})
-$navlistLi.eq(2).on('mouseover',function(){
-    $subpannel.eq(2).css('display','block')
-    $subpannel.eq(2).css('opacity','.95')
-    $subpannel.eq(2).css('left','180px')
-    $navlistLi.eq(2).css('background','#a90000')
-    $navlistLi.eq(2).css('padding-left','10px')
-})
-$navlistLi.eq(2).on('mouseout',function(){
-    $subpannel.eq(2).css('display','none')
-    $subpannel.eq(2).css('opacity','.5')
-    $subpannel.eq(2).css('left','170px')
-    $navlistLi.eq(2).css('background','#cb3e25')
-    $navlistLi.eq(2).css('padding-left','0px')
-})
-$navlistLi.eq(3).on('mouseover',function(){
-    $subpannel.eq(3).css('display','block')
-    $subpannel.eq(3).css('opacity','.95')
-    $subpannel.eq(3).css('left','180px')
-    $navlistLi.eq(3).css('background','#a90000')
-    $navlistLi.eq(3).css('padding-left','10px')
-})
-$navlistLi.eq(3).on('mouseout',function(){
-    $subpannel.eq(3).css('display','none')
-    $subpannel.eq(3).css('opacity','.5')
-    $subpannel.eq(3).css('left','170px')
-    $navlistLi.eq(3).css('background','#cb3e25')
-    $navlistLi.eq(3).css('padding-left','0px')
-})
-$navlistLi.eq(4).on('mouseover',function(){
-    $subpannel.eq(4).css('display','block')
-    $subpannel.eq(4).css('opacity','.95')
-    $subpannel.eq(4).css('left','180px')
-    $navlistLi.eq(4).css('background','#a90000')
-    $navlistLi.eq(4).css('padding-left','10px')
-})
-$navlistLi.eq(4).on('mouseout',function(){
-    $subpannel.eq(4).css('display','none')
-    $subpannel.eq(4).css('opacity','.5')
-    $subpannel.eq(4).css('left','170px')
-    $navlistLi.eq(4).css('background','#cb3e25')
-    $navlistLi.eq(4).css('padding-left','0px')
-})
-$navlistLi.eq(5).on('mouseover',function(){
-    $subpannel.eq(5).css('display','block')
-    $subpannel.eq(5).css('opacity','.95')
-    $subpannel.eq(5).css('left','180px')
-    $navlistLi.eq(5).css('background','#a90000')
-    $navlistLi.eq(5).css('padding-left','10px')
-})
-$navlistLi.eq(5).on('mouseout',function(){
-    $subpannel.eq(5).css('display','none')
-    $subpannel.eq(5).css('opacity','.5')
-    $subpannel.eq(5).css('left','170px')
-    $navlistLi.eq(5).css('background','#cb3e25')
-    $navlistLi.eq(5).css('padding-left','0px')
-})
-$navlistLi.eq(6).on('mouseover',function(){
-    $subpannel.eq(6).css('display','block')
-    $subpannel.eq(6).css('opacity','.95')
-    $subpannel.eq(6).css('left','180px')
-    $navlistLi.eq(6).css('background','#a90000')
-    $navlistLi.eq(6).css('padding-left','10px')
-})
-$navlistLi.eq(6).on('mouseout',function(){
-    $subpannel.eq(6).css('display','none')
-    $subpannel.eq(6).css('opacity','.5')
-    $subpannel.eq(6).css('left','170px')
-    $navlistLi.eq(6).css('background','#cb3e25')
-    $navlistLi.eq(6).css('padding-left','0px')
-})
-$navlistLi.eq(7).on('mouseover',function(){
-    $subpannel.eq(7).css('display','block')
-    $subpannel.eq(7).css('opacity','.95')
-    $subpannel.eq(7).css('left','180px')
-    $navlistLi.eq(7).css('background','#a90000')
-    $navlistLi.eq(7).css('padding-left','10px')
-})
-$navlistLi.eq(7).on('mouseout',function(){
-    $subpannel.eq(7).css('display','none')
-    $subpannel.eq(7).css('opacity','.5')
-    $subpannel.eq(7).css('left','170px')
-    $navlistLi.eq(7).css('background','#cb3e25')
-    $navlistLi.eq(7).css('padding-left','0px')
-})
-$navlistLi.eq(8).on('mouseover',function(){
-    $subpannel.eq(8).css('display','block')
-    $subpannel.eq(8).css('opacity','.95')
-    $subpannel.eq(8).css('left','180px')
-    $navlistLi.eq(8).css('background','#a90000')
-    $navlistLi.eq(8).css('padding-left','10px')
-})
-$navlistLi.eq(8).on('mouseout',function(){
-    $subpannel.eq(8).css('display','none')
-    $subpannel.eq(8).css('opacity','.5')
-    $subpannel.eq(8).css('left','170px')
-    $navlistLi.eq(8).css('background','#cb3e25')
-    $navlistLi.eq(8).css('padding-left','0px')
-})
+
+
+
+//大轮播图
+var $olLi = $('.market-btn').find('ul li');
+var $ulLi = $('.market-pannel').find('ul li');
+var iNow = 0;
+var timer;
+
+$olLi.on('mouseover',function(){
+
+    $(this).attr('class','active').siblings().attr('class','');
+    $ulLi.eq( $(this).index() ).animate({opacity:1},500).siblings().animate({opacity:0},500);
+    iNow = $(this).index();
+});
+
+$('.market-btn').on('mouseover',function(){
+    clearInterval(timer);
+});
+$('.market-btn').on('mouseout',function(){
+    timer = setInterval(run,2000);
+});
+
+timer = setInterval(run,2000);
+
+function run(){
+    if(iNow == $olLi.length-1){
+        iNow = 0;
+    }
+    else{
+        iNow++;
+    }
+    $olLi.eq(iNow).attr('class','active').siblings().attr('class','');
+    $ulLi.eq( iNow ).animate({opacity:1},500).siblings().animate({opacity:0},500);
+}
