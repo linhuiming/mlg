@@ -106,16 +106,25 @@ $navMainListLi.eq(7).on('mouseout',function(){
 //二级菜单
 $subpannel = $('.sub-pannel');
 $navlistLi = $('.menubox').find('ul li')
-
+var x;
 $navlistLi.on('mouseover',function(){
     $(this).attr('class','cx').siblings().attr('class','');
     $subpannel.eq( $(this).index() ).attr('id','appear').siblings().attr('id','');
+    clearTimeout(x);
+})
+$subpannel.on('mouseout',function(){
+    x=setTimeout(hide,200);
 })
 $navlistLi.on('mouseout',function(){
-    $(this).attr('class','')
-    $subpannel.eq( $(this).index() ).attr('id','');
+    x=setTimeout(hide,200);
 })
-
+$subpannel.on('mouseover',function(){
+    clearTimeout(x);
+})
+function hide(){
+    $navlistLi.attr('class','')
+    $subpannel.attr('id','');
+}
 
 
 //大轮播图
