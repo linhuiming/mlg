@@ -364,6 +364,7 @@ section .head-top .topAd img{
     z-index: 32;
     display: inline-block;
 }
+.navMain-list li.onBg div.upaw{position:absolute; display:block;left: 50%; top: 0px; line-height: 0px; height: 0px; border-style: solid; border-width: 0px 3px 3px; margin-left: -3px; border-color:#c8391d transparent; display: none; }
 nav .menubox{
     position: relative;
     margin: 0;
@@ -902,19 +903,19 @@ nav .nav-list li .bg9{
     position: relative;
     background: #444851;
 }
-.timeTit ul li a{
+.timeTit ul li p{
     display: block;
     text-align: center;
     line-height: 17px;
     color: #e2e2e2;
 }
-.timeTit ul li:hover{
-    background: #6c6c6c;
-}
+/*.timeTit ul li:hover{*/
+    /*background: #6c6c6c;*/
+/*}*/
 .timeTit ul li.current a{
     color: #fff;
 }
-.timeTit ul li a.time{
+.timeTit ul li p.time{
     font-size: 16px;
 }
 .timeTit ul li.current i.arrow-down{
@@ -927,6 +928,7 @@ nav .nav-list li .bg9{
     left: 50%;
     margin-left: -6.5px;
 }
+
 .timeCon .ul{
     position: relative;
     overflow: hidden;
@@ -945,23 +947,23 @@ nav .nav-list li .bg9{
     color: #f95d5e;
     line-height: 14px;
 }
-/*.timeCon .ul .bt .prev,.timeCon .ul .bt .next{*/
-    /*background: url("../img/icon_index.png");*/
-/*}*/
-/*.timeCon .ul .bt .prev{*/
-    /*width: 12px;*/
-    /*height: 14px;*/
-    /*background-position: -336px 0;*/
-    /*float: left;*/
-    /*margin-top: 2px;*/
-/*}*/
-/*.timeCon .ul .bt .next{*/
-    /*width: 12px;*/
-    /*height: 14px;*/
-    /*background-position: -348px 0;*/
-    /*float: right;*/
-    /*margin-top: 2px;*/
-/*}*/
+.timeCon .ul .bt .prev,.timeCon .ul .bt .next{
+    background: url("../img/icon_index.png");
+}
+.timeCon .ul .bt .prev{
+    width: 12px;
+    height: 14px;
+    background-position: -336px 0;
+    float: left;
+    margin-top: 2px;
+}
+.timeCon .ul .bt .next{
+    width: 12px;
+    height: 14px;
+    background-position: -348px 0;
+    float: right;
+    margin-top: 2px;
+}
 .timeCon ul li{
     float: left;
     background: #fff;
@@ -1047,6 +1049,16 @@ nav .nav-list li .bg9{
     background-position: -258px -125px;
     z-index: 10;
 }
+.absolute{
+    position: relative;
+}
+.timeCon ul{
+    display: none;
+}
+.timeCon .ul .ab{
+    display: block;
+}
+
     /*-----------------------------stairs---------------------------*/
     /*1F*/
 .mtop10{

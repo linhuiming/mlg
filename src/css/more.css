@@ -1,0 +1,165 @@
+.breadcrumb{ color:#999; line-height:50px; height:50px;font-family: "宋体",SimSun;}
+.breadcrumb a{ padding:0px 5px;}
+.breadcrumb span{ padding-left:5px;}
+.productInfo { margin-bottom:20px; position:relative}
+.productInfo .preview{ float:left; width:362px; position:relative; z-index:11;}
+.closeVideo{position: relative; position: absolute; right:24px; top:13px; z-index:13; width: 30px; height: 30px; cursor: pointer;}
+.startPlayVideo{position: relative; position: absolute; left:137px; top:137px; z-index:13; width:75px; height:75px; cursor: pointer;}
+.startPlayVideo.lb{left:300px; top: 300px; width: 40px; height: 40px;}
+.startPlayVideo img,.closeVideo img{width: 100%; height: 100%;}
+
+.jqzoom{position:relative;padding:0;}
+.zoomdiv{z-index:100;position:absolute;top:1px;left:0px;width:400px;height:400px;background:#fff no-repeat center center;border:1px solid #e4e4e4;display:none;text-align:center;overflow: hidden;}
+.bigimg{width:800px;height:800px;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:50px;height:50px;border:1px solid #aaa;background:#FEDE4F 50% top no-repeat;opacity:0.5;-moz-opacity:0.5;-khtml-opacity:0.5;filter:alpha(Opacity=50);cursor:move;}
+#spec-list{ position:relative; width:302px; margin-right:8px;}
+#spec-list div{ margin-top:0;margin-left:0;*margin-left:0; }
+.zoomdiv{ top:0px; left:0px;}
+
+#preview{ float:none; margin:20px auto; text-align:center; width:500px;}
+.jqzoom{ width:350px; height:350px; position:relative; border:1px solid #ccc;}
+.videoCont{position: absolute; width: 352px; height: 352px; left: 0px; top: 0px; z-index:12;}
+.jqzoom .abs{position: absolute; left: 0px; top: 0;}
+.zoomdiv{ left:859px; height:400px; width:400px;}
+.list-h li{ float:left;}
+#spec-n5{ width:354px; height:56px; padding-top:6px; overflow:hidden;}
+#spec-left{background: url(../img/mainCon.png) no-repeat;width: 18px;height: 54px;display: inline-block;background-position: -142px -116px;float: left;padding-right: 3px; cursor:pointer; margin-top:0px;}
+#spec-right{background: url(../img/mainCon.png) no-repeat;width: 18px;height: 54px;display: inline-block;background-position: -167px -116px;float: left;cursor:pointer;margin-top:0px;}
+#spec-list{ width:302px; float:left; overflow:hidden; margin-left:2px; display:inline;}
+#spec-list ul li{ float:left; margin-right:0px; display:inline; width:61px;}
+#spec-list ul li img{ padding:2px ; border:1px solid #ccc; width:50px; height:50px;}
+#spec-list ul li img.imgHover{border:2px solid #ff6600;
+    padding:1px;}
+
+/*.productInfo .preview_fat{ background:url(../img/fat_con_big.gif) no-repeat 15px 15px;}*/
+/*.productInfo .preview_fat_kjy{ background:url(../img/b2cKjyLogoBig.png) no-repeat 15px 15px;}*/
+
+.productInfo .preview .imgZoom{ border:1px solid #ddd; position:relative; width:360px; height:360px;}
+.productInfo .preview .imgZoom img{ width:360px; height:360px;}
+.productInfo .preview .fat img{ width: 300px;height: 300px;padding: 60px 0px 0px 60px;}
+.productInfo .preview .spec-list{ width:362px; padding-top:10px; height:54px; font-size:0px;}
+.productInfo .preview .spec-list .ulBox{ float:left; width:320px; height:54px; overflow:hidden; position:relative;}
+.productInfo .preview .spec-list .ulBox ul{ position:absolute; top:0; left:0;}
+.productInfo .preview .spec-list a{ background:url(../img/mainCon.png) no-repeat; width:18px; height:54px; display:inline-block;}
+.productInfo .preview .spec-list a.arrowLeft{ background-position: -142px -116px; float:left; padding-right:3px;}
+.productInfo .preview .spec-list a.arrowRight{ background-position: -167px -116px; float:left;}
+.productInfo .preview .spec-list li{ width:64px; text-align:center; float:left; height:54px;}
+.productInfo .preview .spec-list li img{ width:50px; height:50px; padding:1px; border:1px solid #ddd;}
+.productInfo .preview .spec-list li img.imgHover{ border:2px solid #ff5438; padding:0px; }
+.productInfo .preview .addBox{ margin-top:15px; height:30px;}
+.productInfo .preview .addBox li{height:30px; line-height:30px; text-align:center; color:#998675; float:left;}
+.productInfo .preview .addBox li.sc{ background:url(../img/scPng.png) no-repeat; padding-left:20px; border:none;}
+.productInfo .preview .addBox li a{color:#998675;}
+
+.overLeftKf{ line-height: 36px;  color: #cc1d00; width: 260px;}
+.overLeftKf i.iconph{display:block;float: left; width: 12px; height: 17px; margin: 9px 5px 0 0; background: url(../img/iconKf.png) no-repeat scroll 0 0;}
+.overLeftKf a{float: right; color: #cc1d00; }
+
+.productInfo .goodsName{ width:810px; float:right;}
+.productInfo .goodsName h1{ font-size:18px; color:#444;font-family:'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; line-height:1.5em; }
+.productInfo .goodsName h1 .num{color:#de2507; padding-right:8px; margin-right: 8px; position: relative;}
+.productInfo .goodsName h1 .num i{position: absolute; display: block; right: 0px; border-right: 1px solid #de2507; height: 18px; top: 50%; margin-top: -9px;}
+.productInfo .goodsName span{font-size:14px; color:#999; font-family:'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; line-height:1.5em;}
+
+.productInfo .goodsPay{ margin-top:10px; color:#666; font-size:12px; margin-left:18px;}
+.productInfo .goodsPay a{ color:#06599f; text-decoration:none; font-family:"宋体",SimSun;}
+.productInfo .goodsPay a:hover{ text-decoration:none; color:#000;}
+.productInfo .goodsPay li{ line-height:30px; height:30px; clear:both; font-family:"宋体";  float: left; width: 100%;}
+.productInfo .goodsPay li.bgGray{ background:#f7f7f7;}
+/*.productInfo .goodsName{ width:610px; float:right; padding-bottom:8px;}*/
+.productInfo .goodsPay{width:610px;float:left;position:relative;}
+
+.productInfo .goodsPay li.sumPriceNow font{ float:left;font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#cc1d00; font-weight:bold;}
+.productInfo .goodsPay li.sumPriceNow span{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#de2507; font-weight:bold;padding-right:5px; display:inline-block; float:left;}
+.productInfo .goodsPay li.sumPriceNow span.unit-price{font-size: 12px; margin:2px 0 0 5px; padding-left:8px; font-weight: 400; position: relative; }
+.productInfo .goodsPay li.sumPriceNow span.unit-price i{position: absolute; display: block; left: 0px; border-right: 1px solid #de2507; height:10px; top: 50%; margin-top: -5px;}
+.productInfo .goodsPay li.sumPriceNow em{ font-style:normal; display:inline-block; text-align:center; vertical-align:top;*vertical-align:baseline;}
+.productInfo .goodsPay li.sumPriceNow a{ margin-left:20px; display:inline-block; line-height:34px;}
+.productInfo .goodsPay li.sumPriceNow .iblock{ display:inline-block; line-height:18px; margin:6px 0 0px 20px;*margin:5px 0 0px 20px; color:#938DCD;font-size: 12px;*padding-left: 20px; }
+.productInfo .goodsPay li.sumPriceNow .iblock .e1{color: #fff; background:#B3AFE1; padding:0 4px; border-radius: 3px; margin-right: 5px;}
+.productInfo .goodsPay li.sumPriceNow  p{ display:block; clear:both;}
+.productInfo .goodsPay li.sumPriceNow  p em{ font-style:normal;  background:#eee;margin-right:10px; color:#cc1d00;font-size: 12px;border: 1px solid #ccc; line-height:20px; padding:0px 5px;}
+.productInfo .goodsPay li.sumPriceNow .countDown{ display:inline-block; float:left; color:#333; font-family:'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; font-size:13px;}
+.productInfo .goodsPay li.sumPriceNow.priceImg .dt{width: 75px; margin:0px 8px 0px 10px; line-height: 30px;}
+.productInfo .goodsPay li.sumPriceNow.priceImg .dt img{width:75px; height: 30px;}
+.productInfo .goodsPay li.sumPriceNow.priceImg .dd{width: 515px;}
+.productInfo .goodsPay li.sumYf span{ color:#cc1d00; font-size:12px;font-family:Verdana, Geneva, sans-serif;}
+.productInfo .goodsPay li.sumYf em{background-color: #F00;padding: 1px 3px; font-style:normal;font-size: 12px;color: #fff;margin-left: 5px;border-radius: 8px; }
+.productInfo .goodsPay li.sumSale{ line-height:22px; height:auto; padding-bottom:6px; }
+.productInfo .goodsPay li.sumSale span.st{ background:#cc1d00; color:#fff; margin-right:5px; padding:0px 2px;}
+.productInfo .goodsPay li.sumSale .dd a{ color:#666;margin-right: 20px;}
+.productInfo .goodsPay li.sumSale .dd a span,.productInfo .goodsPay li.sumSale .red{ font-size:12px; font-family:'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; color:#cc1d00; font-weight:bold;}
+.productInfo .goodsPay li.sumSale .fl{float: left;}
+.productInfo .goodsPay li.sumSale .w320{width: 320px; position: relative; }
+.productInfo .goodsPay li.sumSale .clamp1{ position:absolute; left:80px; top:0px; height: 24px; width:420px; display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+
+.productInfo .goodsPay li.oseabox{ height: 42px; line-height:42px; padding: 10px 0; margin:10px 0 ; border:1px dashed #eeeeee; width: 608px;}
+.productInfo .goodsPay li.oseabox .d1{overflow: hidden;}
+.productInfo .goodsPay li.oseabox .d1>span{float: left;}
+.productInfo .goodsPay li.oseabox .d1 .s1{float: left; width:32px; height:32px; *height:30px; line-height: 16px; padding:5px; text-align: center; color: #fff; background: #9f6ed2; margin:0 20px; }
+.productInfo .goodsPay li.oseabox .d1 .s2{color: #9f6ed2; margin-right:20px;padding-right:20px; position:relative;font-size: 14px;}
+.productInfo .goodsPay li.oseabox .d1 .s2 em{display: block; position: absolute; right: 0; width:1px; background: #9f6ed2; height: 12px; top: 50%; margin-top: -6px;}
+.productInfo .goodsPay li.ass span{ display:inline-block; padding-left:12px; font-family:"宋体"; color:#999;}
+.productInfo .goodsPay li.ass span a{ color:#999;}
+.productInfo .goodsPay li.ass span em{ font-style:normal; color:#ff6d55; font-family:Verdana, Geneva, sans-serif;}
+.productInfo .goodsPay li.ass span i{ font-style:normal; color:#999; font-size:12px; padding-left:15px;}
+.productInfo .goodsPay li.bgGray{ background:#f7f7f7;}
+.productInfo .goodsPay .dt{float:left; width:72px; text-align:right; line-height:30px;}
+.productInfo .goodsPay .dd{ float:left; line-height:30px; width:520px;}
+.productInfo .goodsPay .dd p em{display: inline-block; background: #c30;padding: 2px 5px;line-height: 14px;color: #fff; margin-right:5px;}
+.productInfo .goodsPay .countDd em{ color:#666; font-size:12px; vertical-align:middle;}
+.productInfo .goodsPay .ddPs{ margin-left:72px; line-height:24px;  width: 536px;height: 24px;overflow: hidden; color:#999;}
+.productInfo .goodsPay .ddPs i{ font-style:normal;  display:inline-block; border-radius:3px; line-height:20px; color:#ff6d55;  margin-top:5px;}
+.productInfo .goodsPay .dd .oDiv{ display:inline-block; position:relative; float:left;}
+.productInfo .goodsPay .dd .oDiv i{ font-style:normal; position:absolute; color:#ff6d55; left:0px; top:26px; display:inline-block; width:100px;}
+.productInfo .goodsPay li.sumPriceOld span{ font-family:Verdana, Geneva, sans-serif;}
+.productInfo .goodsPay li.sumPriceNow i{ font-style:normal; font-size:13px;vertical-align: middle;}
+
+/*.productInfo .goodsPay li.sumValua span{ background:url(../image/conlist.png) no-repeat 0px -70px; width:79px; height:14px;display: inline-block; vertical-align:middle; z-index:-11; }*/
+/*.productInfo .goodsPay li.sumValua span.star{ float:left; background:url(../image/conlist.png) no-repeat 0px -46px; width:79px; height:14px; position:relative; !*top: -9px;  *top: 0px;*! z-index:1; }*/
+.productInfo .goodsPay li.sumValua a{ margin-left:10px;  vertical-align:middle;}
+.productInfo .goodsPay li.sumKind span{ margin-right:20px;}
+.productInfo .goodsPay li.sumSale{ height:auto;}
+.productInfo .goodsPay li.sumSale a{color:#F63; text-decoration:none;}
+.productInfo .goodsPay li.sumSale a.login{color: #fff;display: inline-block;padding: 0px 3px;background: #cc1d00;line-height: 20px; margin-right:0px;}
+.productInfo .goodsPay li.sumSale a.login:hover{ background: #cc1d00; color:#fff;}
+.productInfo .goodsPay li.sumSale a:hover{color:#333; text-decoration:none;}
+.productInfo .goodsPay li.sumSend span{ color:#666;}
+.productInfo .goodsPay li.sumChoose{height:auto; padding:6px 0px;}
+.productInfo .goodsPay li.tc{ margin-bottom:5px;}
+.productInfo .goodsPay li.sumChoose p{ color:#999;}
+.productInfo .goodsPay li.sumChoose a{ font-size:12px; display:inline-block; border:1px solid #ddd; padding:3px 6px; color:#666; text-align:center; height:24px; line-height:24px; vertical-align:middle; margin-right:5px; margin-bottom:5px;}
+.productInfo .goodsPay li.sumChoose a.none{ border-color: #f1f1f1;color: #bbb;background: #f9f9f9;}
+.productInfo .goodsPay li.sumChoose a:hover{ font-size:12px; border:2px solid #ff1d02; padding:2px 5px; color:#666; text-align:center; text-decoration:none;}
+.productInfo .goodsPay li.sumChoose .hover{ font-size:12px; border:2px solid #ff1d02; padding:2px 5px; color:#666; text-align:center; text-decoration:none; background: url(../img/priceOn.gif) no-repeat right bottom;}
+
+.productInfo .goodsPay .buyBtn{margin-top:10px; padding-left:10px;float: left}
+.productInfo .goodsPay .buyBtn div{ display:inline-block;}
+.productInfo .goodsPay .buyBtn a{ display:inline-block; padding:4px 10px; height:34px; line-height:34px;  text-align:center;margin-right:10px; text-decoration:none;color:#666;}
+.productInfo .goodsPay .buyBtn a:hover{ color:#000;}
+
+.productInfo .goodsPay .buyBtn a.btnMain{ background:#cc1d00; font-size:20px; color:#fff; font-weight:bold;width:140px;}
+.productInfo .goodsPay .buyBtn a.btn{ border:1px solid #ccc; font-size:16px; color:#444; font-weight:bold;width:90px; }
+.productInfo .goodsPay .buyBtn a.btn i{ background:url(../img/mainCon.png) no-repeat -14px -116px; width:6px; height:11px;display: inline-block;margin-left: 8px;}
+
+.reminder{clear:both; font-size:12px; line-height:24px; color:#666; padding-top:10px;}
+.reminder span{ display:inline-block; }
+.reminder span.sL{ width:70px;text-indent:8px;float:left }
+.reminder span.sR{ width:540px; float:left;}
+.reminder span.sR i{ padding-right:20px; font-style:normal; display:inline-block;}
+
+
+.productInfo .goodsPay li.sumNum{ padding-bottom:8px;:}
+.productInfo .goodsPay li.sumNum .dd{ font-size:0px;}
+.productInfo .goodsPay li.sumNum a{ display:inline-block; border:1px solid #ddd; width:20px; height:24px;line-height: 24px;text-align: center; color:#666; font-weight:bold; text-decoration:none; font-size:14px; vertical-align:middle; }
+.productInfo .goodsPay li.sumNum span{ color:#999; font-size12px; line-height30px; text-indent:0px; padding:0px 10px; vertical-align:middle;}
+.productInfo .goodsPay li.sumNum a.al{border-right:none; }
+.productInfo .goodsPay li.sumNum a.ar{ border-left:none;}
+.productInfo .goodsPay li.sumNum input{border:1px solid #ddd; width:40px; height:24px;line-height: 24px; display:inline-block; text-align:center; font-size:14px; vertical-align:middle;}
+.productInfo .goodsPay li.sumNum dd{ width:100px;}
+.productInfo .goodsPay .buyBtn{margin-top:10px; padding-left:10px;}
+.productInfo .goodsPay .buyBtn div{ display:inline-block;}
+.productInfo .goodsPay .buyBtn a{ display:inline-block; padding:4px 10px; height:34px; line-height:34px;  text-align:center;margin-right:10px; text-decoration:none;color:#666;}
+.productInfo .goodsPay .buyBtn a:hover{ color:#000;}
+

@@ -162,3 +162,11 @@ function run(){
 
 
 //选项卡
+$timeTit = $('.timeTit').find('ul li')
+$timeTitI = $timeTit.find('i')
+$ull = $('.ul').find('ul')
+$timeTit.on('click',function(){
+    $(this).attr('class','current').siblings('li').attr('class','');
+    $timeTitI.eq($(this).index()).attr('class','arrow-down').siblings(' i').attr('class','');
+    $ull.eq($(this).index()).attr('class','ab').siblings(' ul').attr('class','');
+})

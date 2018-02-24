@@ -1,7 +1,8 @@
 /**
- * Created by lenovo on 2018/2/6.
+ * Created by lenovo on 2018/2/24.
  */
 //我的麦乐购（鼠标移入移出）
+
 $mg = $('.mygou');
 $nc = $('.noneCon');
 $mgi = $('.mygou').find('i').eq(0);
@@ -30,6 +31,7 @@ $mg.eq(1).on('mouseout',function(){
 })
 
 //nav下划线移动
+
 $navMainList = $('.navMain-list').eq(0);
 $navMainListLi = $('.navMain-list').find('li');
 $on = $('.on').find('a')
@@ -103,70 +105,55 @@ $navMainListLi.eq(7).on('mouseout',function(){
     $onBg.css('width','32px')
     $on.css('color','#cb351a')
 })
+
 //二级菜单
-$subpannel = $('.sub-pannel');
-$navlistLi = $('.menubox').find('ul li')
-var x;
-$navlistLi.on('mouseover',function(){
-    $(this).attr('class','cx').siblings().attr('class','');
-    $subpannel.eq( $(this).index() ).attr('id','appear').siblings().attr('id','');
-    clearTimeout(x);
-})
-$subpannel.on('mouseout',function(){
-    x=setTimeout(hide,200);
-})
-$navlistLi.on('mouseout',function(){
-    x=setTimeout(hide,200);
-})
-$subpannel.on('mouseover',function(){
-    clearTimeout(x);
-})
-function hide(){
-    $navlistLi.attr('class','')
-    $subpannel.attr('id','');
-}
 
+//$subpannel = $('.sub-pannel');
+//$navlistLi = $('.menubox').find('ul li')
+//$navList =$('.nav-list')
+//$omb = $('.open-menu-btn')
+//var x;
+//$omb.on('mouseover',function(){
+//    $navList.css('display','block')
+//    clearTimeout(x);
+//})
+//$omb.on('mouseout',function(){
+//    x=setTimeout(yc,400);
+//})
+//$navList.on('mouseover', function () {
+//    clearTimeout(x);
+//})
+//$navList.on('mouseout', function () {
+//    x=setTimeout(yc,400);
+//})
+//function yc(){
+//    $navList.css('display','none')
+//}
+//
+//$navlistLi.on('mouseover',function(){
+//    $(this).attr('class','cx').siblings().attr('class','');
+//    $subpannel.eq( $(this).index() ).attr('id','appear').siblings().attr('id','');
+//    clearTimeout(x);
+//})
+//$subpannel.on('mouseout',function(){
+//    x=setTimeout(hide,200);
+//})
+//$navlistLi.on('mouseout',function(){
+//    x=setTimeout(hide,200);
+//})
+//$subpannel.on('mouseover',function(){
+//    clearTimeout(x);
+//})
+//function hide(){
+//    $navlistLi.attr('class','')
+//    $subpannel.attr('id','');
+//}
 
-//大轮播图
-var $olLi = $('.market-btn').find('ul li');
-var $ulLi = $('.market-pannel').find('ul li');
-var iNow = 0;
-var timer;
+//放大镜轮播图
+$specList = $('#spec-list').find('ul li img')
+$specN1 = $('#spec-n1').find(' img')
+$specList.on('mouseover',function(){
+    //$specN1.css('src','')
+    $(this).attr('class','imgHover').siblings().attr('class','')
 
-$olLi.on('mouseover',function(){
-
-    $(this).attr('class','active').siblings().attr('class','');
-    $ulLi.eq( $(this).index() ).animate({opacity:1},500).siblings().animate({opacity:0},500);
-    iNow = $(this).index();
-});
-
-$('.market-btn').on('mouseover',function(){
-    clearInterval(timer);
-});
-$('.market-btn').on('mouseout',function(){
-    timer = setInterval(run,2000);
-});
-
-timer = setInterval(run,2000);
-
-function run(){
-    if(iNow == $olLi.length-1){
-        iNow = 0;
-    }
-    else{
-        iNow++;
-    }
-    $olLi.eq(iNow).attr('class','active').siblings().attr('class','');
-    $ulLi.eq( iNow ).animate({opacity:1},500).siblings().animate({opacity:0},500);
-}
-
-
-//选项卡
-$timeTit = $('.timeTit').find('ul li')
-$timeTitI = $timeTit.find('i')
-$ull = $('.ul').find('ul')
-$timeTit.on('click',function(){
-    $(this).attr('class','current').siblings('li').attr('class','');
-    $timeTitI.eq($(this).index()).attr('class','arrow-down').siblings(' i').attr('class','');
-    $ull.eq($(this).index()).attr('class','ab').siblings(' ul').attr('class','');
 })
