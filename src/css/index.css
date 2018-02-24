@@ -945,23 +945,23 @@ nav .nav-list li .bg9{
     color: #f95d5e;
     line-height: 14px;
 }
-.timeCon .ul .bt .prev,.timeCon .ul .bt .next{
-    background: url("../img/icon_index.png");
-}
-.timeCon .ul .bt .prev{
-    width: 12px;
-    height: 14px;
-    background-position: -336px 0;
-    float: left;
-    margin-top: 2px;
-}
-.timeCon .ul .bt .next{
-    width: 12px;
-    height: 14px;
-    background-position: -348px 0;
-    float: right;
-    margin-top: 2px;
-}
+/*.timeCon .ul .bt .prev,.timeCon .ul .bt .next{*/
+    /*background: url("../img/icon_index.png");*/
+/*}*/
+/*.timeCon .ul .bt .prev{*/
+    /*width: 12px;*/
+    /*height: 14px;*/
+    /*background-position: -336px 0;*/
+    /*float: left;*/
+    /*margin-top: 2px;*/
+/*}*/
+/*.timeCon .ul .bt .next{*/
+    /*width: 12px;*/
+    /*height: 14px;*/
+    /*background-position: -348px 0;*/
+    /*float: right;*/
+    /*margin-top: 2px;*/
+/*}*/
 .timeCon ul li{
     float: left;
     background: #fff;

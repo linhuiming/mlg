@@ -159,3 +159,6 @@ function run(){
     $olLi.eq(iNow).attr('class','active').siblings().attr('class','');
     $ulLi.eq( iNow ).animate({opacity:1},500).siblings().animate({opacity:0},500);
 }
+
+
+//选项卡
