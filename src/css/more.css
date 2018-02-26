@@ -152,7 +152,7 @@
 .productInfo .goodsPay li.sumNum{ padding-bottom:8px;:}
 .productInfo .goodsPay li.sumNum .dd{ font-size:0px;}
 .productInfo .goodsPay li.sumNum a{ display:inline-block; border:1px solid #ddd; width:20px; height:24px;line-height: 24px;text-align: center; color:#666; font-weight:bold; text-decoration:none; font-size:14px; vertical-align:middle; }
-.productInfo .goodsPay li.sumNum span{ color:#999; font-size12px; line-height30px; text-indent:0px; padding:0px 10px; vertical-align:middle;}
+.productInfo .goodsPay li.sumNum span{ color:#999; font-size:12px; line-height:30px; text-indent:0px; padding:0px 10px; vertical-align:middle;}
 .productInfo .goodsPay li.sumNum a.al{border-right:none; }
 .productInfo .goodsPay li.sumNum a.ar{ border-left:none;}
 .productInfo .goodsPay li.sumNum input{border:1px solid #ddd; width:40px; height:24px;line-height: 24px; display:inline-block; text-align:center; font-size:14px; vertical-align:middle;}
