@@ -16,12 +16,19 @@ gulp.task("copycss",function(){
 gulp.task("copyjs",function(){
 	return gulp.src("src/js/*.js").pipe(gulp.dest("dist/js")).pipe(connect.reload());
 });
+gulp.task("copyimg",function(){
+	return gulp.src("src/img/*").pipe(gulp.dest("dist/img")).pipe(connect.reload());
+});
+gulp.task("copylib",function(){
+	return gulp.src("src/lib/*").pipe(gulp.dest("dist/lib")).pipe(connect.reload());
+});
 
 gulp.task("mywatch",function(){
 	gulp.watch("src/html/*.html",["copyhtml"]);
 	gulp.watch("src/css/*.css",["copycss"]);
 	gulp.watch("src/js/*.js",["copyjs"]);
-
+	gulp.watch("src/img/*",["copyimg"]);
+	gulp.watch("src/lib/*",["copylib"]);
 });
 gulp.task("server",function(){
 	connect.server({

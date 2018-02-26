@@ -21,13 +21,12 @@
 .videoCont{position: absolute; width: 352px; height: 352px; left: 0px; top: 0px; z-index:12;}
 .jqzoom .abs{position: absolute; left: 0px; top: 0;}
 .zoomdiv{ left:859px; height:400px; width:400px;}
-.list-h li{ float:left;}
 #spec-n5{ width:354px; height:56px; padding-top:6px; overflow:hidden;}
 #spec-left{background: url(../img/mainCon.png) no-repeat;width: 18px;height: 54px;display: inline-block;background-position: -142px -116px;float: left;padding-right: 3px; cursor:pointer; margin-top:0px;}
 #spec-right{background: url(../img/mainCon.png) no-repeat;width: 18px;height: 54px;display: inline-block;background-position: -167px -116px;float: left;cursor:pointer;margin-top:0px;}
 #spec-list{ width:302px; float:left; overflow:hidden; margin-left:2px; display:inline;}
-#spec-list ul li{ float:left; margin-right:0px; display:inline; width:61px;}
-#spec-list ul li img{ padding:2px ; border:1px solid #ccc; width:50px; height:50px;}
+#spec-list ul li{ margin-right:0px; display:inline; width:61px;}
+#spec-list ul li img{ padding:2px ; border:1px solid #ccc; width:50px; height:50px;display: inline;float: left}
 #spec-list ul li img.imgHover{border:2px solid #ff6600;
     padding:1px;}
 
